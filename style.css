@@ -1,0 +1,186 @@
+body {
+	background:black;
+	margin:0;
+}
+#navmenu ul{
+	overflow:hidden;
+	color:#fff;
+	list-style: none;
+	float:left;
+	padding:0;
+	width: 650px;
+	margin:0 0 0;
+	background: grey;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+	box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+	width: 100%;
+	float:inherit;
+}
+#navmenu ul li {
+	margin:0;
+	float:left;
+	float:inherit;
+	margin:0;
+}
+#navmenu ul a {
+	padding:25px;
+	display:block;
+	font-weight:600;
+	font-size: 16px;
+	color:#fff;
+	text-transform: uppercase;
+	transition: all 0.5s ease;
+	text-decoration: none;
+	padding:15px;
+	font-size: 14px;
+	padding:15px;
+	font-size: 16px;
+	border-top:1px solid white;
+	border-bottom:1px solid white;
+}
+#navmenu ul a:hover {
+	text-decoration: underline;
+	background:black;
+}
+.isi {
+	width: 950px;
+	margin:25px auto;
+	width: 90%;
+}
+#aplikasi{
+	width: 950px;
+	margin:25px auto;
+	width: 90%;
+}
+#header .keterangan{
+	font-size: 11pt;
+	color: white;
+}
+#header .judul{
+	color: white;
+}
+#aplikasi .content {
+		width:90%;
+}
+#aplikasi {
+	float:right;
+	width:90%;
+}
+hr {
+	border:0;
+	background:#dedede;
+	height:1px;
+}		
+#aplikasi .sidebar {
+	float:right;
+	width:275px;
+}
+#aplikasi .sidebar .widget {
+	padding:25px;
+	margin:0 0 25px;
+	background:grey;
+	transition: all 0.5s ease;
+}
+#aplikasi .sidebar .widget h2 {
+	padding:0;
+	margin:0 0 15px;
+	color:#3498db;
+	font-size: 18px;
+	font-weight:800;
+	text-transform: uppercase;
+}
+#aplikasi .sidebar .widget:hover {
+	background: black;
+	border-bottom: 2px solid white;
+	border-top: 2px solid white;
+	border-left: 2px solid white;
+}
+
+#aplikasi .sidebar .widget p {
+	font-size: 14px;
+}
+#aplikasi .sidebar .widget p:last-child {
+	margin:0;
+} 
+
+#aplikasi .content .conteudo {
+	width:600px;
+	padding:25px;
+	margin:25px auto;
+	background: #fff;
+	border:1px solid #dedede;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+	box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+} 
+#aplikasi .content .conteudo img {
+	min-width: 650px;
+	margin:0 0 25px -25px;
+	max-width: 650px;
+}
+#aplikasi .content .conteudo h1 {
+	padding:0;
+	margin:0 0 15px;
+	font-weight: normal;
+	color: #666;
+	font-family: Georgia;
+	transition: all 0.5s ease;
+} 
+#aplikasi .content .conteudo h1:hover{
+	color: black;
+
+}
+#aplikasi .content .conteudo p:last-child {
+	margin: 0;
+} 
+#aplikasi .content .conteudo .continue-lendo {
+	color:#000;
+	transition: all 0.5s ease;
+	text-decoration: none;
+	font-weight: 700; 
+} 
+#aplikasi .content .conteudo .continue-lendo:hover {
+	margin-left:10px;
+} 
+
+@media screen and (max-width: 960px) { 
+.header {
+	position:inherit;
+}
+.sidebar {
+	width:100%;
+	margin:25px 0 0;
+	float:right;
+} 
+.sidebar .widget {
+	padding:5%;
+}
+
+#aplikasi .content .conteudo {
+	float:inherit;
+	margin:0 auto 25px;
+	width:101%;
+	border:1px solid #dedede;
+	padding:5%;  
+	background: #fff;
+}
+#aplikasi .content .conteudo img {
+	max-width: 110%;
+	margin:0 0 25px -5%;
+	min-width: 110%;
+}
+#aplikasi .content .conteudo .continue-lendo:hover {
+	margin-left:0;
+}
+@media screen and (max-width: 460px) 
+#aplikasi .sidebar {
+		display:none
+}
+ 
+#aplikasi .content .conteudo {
+	margin:25px auto;
+}
+#aplikasi .content .conteudo img {
+	margin:-5% 0 25px -5%;
+}			

@@ -1,0 +1,90 @@
+<DOCTYPE html>
+<html>
+<head>
+	<title>Formulir Gabut Web</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="FormGabutWeb.css">
+</head>
+<body>
+	<div id="header">
+		<center>
+		<h1 class="judul">Gabut Web</h1>
+		<p class="keterangan">Disini anda dapat menghilangkan rasa jenuh anda dengan mendapatkan teman chatting baru (dalam pengembangan) </p>	
+		</center>
+	</div>
+	<div id="navmenu" class="isi">
+			<ul>
+				<li><a href="index.html">Home</a>
+				</li>
+				<li><a href="index.html">About</a>
+				</li>
+				<li><a href="index.html">Kontak</a>
+				</li>
+			</ul>
+	</div>
+	<div id="aplikasi">
+		<aside class="sidebar">
+			<div class="widget">
+				<h2><a target="_blank" href="https://web.whatsapp.com/">WHATSAPP</a></h2>
+				<img src="gambar2.png" style="width: 100px;">
+			</div>
+			<div class="widget">
+				<h2><a target="_blank" href="https://www.instagram.com/accounts/login/?hl=id">INSTAGRAM</a></h2>
+				<img src="gambar3.png" style="width: 100px;">
+			</div>
+			<div class="widget">
+				<h2><a target="_blank" href="https://web.facebook.com/?_rdc=1&_rdr">FACEBOOK</a></h2>
+				<img src="gambar4.png" style="width: 100px;">
+			</div>
+			<div class="widget">
+				<h2><a target="_blank" href="https://twitter.com/login?lang=id">TWITTER</a></h2>
+				<img src="gambar5.png" style="width: 100px;">
+			</div>
+			<div class="widget">
+				<h2><a target="_blank" href="https://web.telegram.org/">TELEGRAM</a></h2>
+				<img src="gambar7.png" style="width: 100px;">
+			</div>
+		</aside>
+		<div class="content">
+			<div class="conteudo">
+				<form method="post" action="PilihanApp.html">
+					<label for="nama">Nama:</label><br>
+					<input type="text" name="nama" placeholder="nama lengkap	anda" required><br><br>
+					<label for="WhatsApp">Nomor WhatsApp:</label><br>
+					<input type="text" name="WhatsApp" placeholder="Nomor WhatsApp anda"><br><br>
+					<label for="INSTAGRAM">Akun Instagram:</label><br>
+					<input type="text" name="INSTAGRAM" placeholder="@akunanda"><br><br>
+					<label for="FACEBOOK">Akun Facebook:</label><br>
+					<input type="text" name="FACEBOOK" placeholder="Akun Facebook anda"><br><br>
+					<label for="TWITTER">Akun Twitter:</label><br>
+					<input type="text" name="TWITTER" placeholder="Akun Twitter anda anda"><br><br>
+					<label for="TELEGRAM">Nomor Telegram:</label><br>
+					<input type="text" name="TELEGRAM" placeholder="Nomor Telegram anda"><br><br>
+
+
+					<label for="email">Email:</label><br>
+					<input type="email" name="email" placeholder="email@mail.com" required><br><br>
+					<label for="jenis kelamin">Jenis Kelamin:</label><br>
+					<input type="radio" name="jenis kelamin" value="L">L<br> 
+					<input type="radio" name="jenis kelamin" value="P">P<br> 
+					<input type="radio" name="jenis kelamin" value="-">Sembunyikan.<br><br>
+					<label for="Daerah">Asal Daerah:</label><br>
+					<select name="wn">
+						<option value="JAWA">Jawa</option>
+						<option value="SUMATRA">Sumatra</option>
+						<option value="SULWESI">Sulawesi</option>
+						<option value="PAPUA">Papua</option>
+						<option value="KALIMANTAN">Kalimantan</option>
+						<option value="Lainnya">Lainnya</option>
+					</select><br><br>
+					<label for="komentar">Apa kesan anda terhadap aplikasi ini:</label><br>
+					<textarea name="komentar"></textarea><br><br>
+					<input type="submit" name="submit" value="Kirim">
+					<p>*jika anda menekan kirim, maka anda setuju jika akun media sosial anda juga kami gunakan untuk diberikan secara acak ke pengguna lain
+					</p>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
